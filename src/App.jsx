@@ -4,6 +4,12 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Counter from './components/Counter'
 
+
+// write a function to return greatest number in an array
+function greatestNumber(arr:any) {
+  return Math.max(..arr)
+}
+
 function App() {
   const [count, setCount] = useState(0)
 
